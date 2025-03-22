@@ -1,0 +1,27 @@
+// .vscode/extensions.json
+{
+  "recommendations": [
+    "shardulm94.trailing-spaces",
+    "oderwat.indent-rainbow",
+    "kisstkondoros.vscode-gutter-preview",
+    "naumovs.color-highlight",
+    "formulahendry.auto-close-tag",
+    "steoates.autoimport",
+    "formulahendry.auto-rename-tag",
+    "ms-ceintl.vscode-language-pack-zh-hans",
+    "streetsidesoftware.code-spell-checker",
+    "oouo-diogo-perdigao.docthis",
+    "dbaeumer.vscode-eslint",
+    "maggie.eslint-rules-zh-plugin",
+    "mhutchie.git-graph",
+    "felipecaputo.git-project-manager",
+    "eamodio.gitlens",
+    "wix.vscode-import-cost",
+    "esbenp.prettier-vscode",
+    "burkeholland.simple-react-snippets",
+    "stylelint.vscode-stylelint",
+    "gruntfuggly.todo-tree",
+    "pflannery.vscode-versionlens",
+    "vscode-icons-team.vscode-icons"
+  ]
+}
