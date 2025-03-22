@@ -1,9 +1,9 @@
-import { lazy } from "react";
+import { lazy } from 'react'
 
 interface Route {
-    path: string;
-    component: React.LazyExoticComponent<React.ComponentType<any>>;
-    children?: Route[];
+    path: string
+    component: React.FC
+    children?: Route[]
 }
 
 const Home = lazy(() => import('@/pages/home'))
@@ -11,8 +11,8 @@ const Home = lazy(() => import('@/pages/home'))
 const routes: Route[] = [
     {
         path: '/',
-        component: Home,
+        component: Home
     }
 ]
 
-export default routes;
+export default routes

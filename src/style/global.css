@@ -1,60 +1,61 @@
-html, body {
-  margin: 0;
-  padding: 0;
-  height: 100%;
-  width: 100%;
+html,
+body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
 }
 
 #root {
-  height: 100%;
-  width: 100%;
+    height: 100%;
+    width: 100%;
 }
 
 .ant-layout-sider-children {
-  display: flex;
-  flex-direction: column;
-  height: 100%;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
 }
 
 .site-layout-background {
-  background: #fff;
+    background: #fff;
 }
 
 .sider-trigger {
-  font-size: 18px;
-  line-height: 64px;
-  cursor: pointer;
-  transition: color 0.3s;
+    font-size: 18px;
+    line-height: 64px;
+    cursor: pointer;
+    transition: color 0.3s;
 }
 
 .sider-trigger:hover {
-  color: #1890ff;
+    color: #1890ff;
 }
 
 .logo {
-  height: 32px;
-  margin: 16px;
-  background: rgba(255, 255, 255, 0.3);
+    height: 32px;
+    margin: 16px;
+    background: rgba(255, 255, 255, 0.3);
 }
 
 .ant-layout-header {
-  padding: 0 !important;
+    padding: 0 !important;
 }
 
 .scrollbar-container {
-  overflow: auto;
+    overflow: auto;
 }
 
 .scrollbar-container::-webkit-scrollbar {
-  width: 6px;
-  height: 6px;
+    width: 6px;
+    height: 6px;
 }
 
 .scrollbar-container::-webkit-scrollbar-thumb {
-  background: rgba(0, 0, 0, 0.2);
-  border-radius: 3px;
+    background: rgba(0, 0, 0, 0.2);
+    border-radius: 3px;
 }
 
 .scrollbar-container::-webkit-scrollbar-track {
-  background: rgba(0, 0, 0, 0.1);
+    background: rgba(0, 0, 0, 0.1);
 }

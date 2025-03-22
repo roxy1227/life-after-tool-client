@@ -1,5 +1,5 @@
-import { proxy } from "valtio";
-import { State, FormItem } from "./type";
+import { proxy } from 'valtio'
+import { State, FormItem } from './type'
 
 const state = proxy<State>({
     form_item: {} as FormItem

@@ -1,11 +1,9 @@
-import { proxy } from "valtio";
-import { FormItem, State } from "./type";
-
-
+import { proxy } from 'valtio'
+import { FormItem, State } from './type'
 
 const state = proxy<State>({
     count: 0,
-    form_item: {} as FormItem,
+    form_item: {} as FormItem
 })
 
 const reducer = {
@@ -28,4 +26,4 @@ const reducer = {
 export default {
     state,
     reducer
-};
+}

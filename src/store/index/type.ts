@@ -8,5 +8,3 @@ export interface FormItem {
     age: number
     gender: string
 }
-
-

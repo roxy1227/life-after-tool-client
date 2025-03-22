@@ -1,10 +1,9 @@
 export interface Menu {
-    menu_link?: string;
-    menu_name?: string;
-    menu_path?: string;
-    menu_icon?: string;
-    children?: Menu[];
-
+    menu_link?: string
+    menu_name?: string
+    menu_path?: string
+    menu_icon?: string
+    children?: Menu[]
 }
 
 const subMenu: Menu[] = [
@@ -14,4 +13,4 @@ const subMenu: Menu[] = [
     }
 ]
 
-export default subMenu;
+export default subMenu
